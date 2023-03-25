@@ -66,7 +66,7 @@
  * (Other behaviors are given by the firmware version and capabilities report.)
  */
 #ifndef PROTOCOL_VERSION
-  #define PROTOCOL_VERSION "V2.0.0_A_1"
+  #define PROTOCOL_VERSION "V2.0.0_A_2"
 #endif
 
 
@@ -75,7 +75,7 @@
  * Firmware Version information
  */
 #ifndef FIRMWARE_VERSION
-  #define FIRMWARE_VERSION "V2.0.0_A_1"
+  #define FIRMWARE_VERSION "V2.0.0_A_2"
 #endif
 
 
