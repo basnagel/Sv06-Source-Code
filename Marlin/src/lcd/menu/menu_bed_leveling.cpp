@@ -346,7 +346,7 @@ void menu_bed_leveling() {
   #endif
  
   #if ENABLED(MESH_EDIT_MENU)
-    if (is_valid) SUBMENU(MSG_EDIT_MESH, menu_edit_mesh);
+    SUBMENU(MSG_EDIT_MESH, menu_edit_mesh);
   #endif
 
   // Homed and leveling is valid? Then leveling can be toggled.
